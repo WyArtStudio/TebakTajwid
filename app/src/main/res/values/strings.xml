@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">TebakTajwid</string>
+    <string name="materi_tajwid">Materi Tajwid</string>
+    <string name="latihan">Latihan</string>
+    <string name="icon">icon</string>
+    <string name="question">Tajwid yang terkandung pada bagian yang ditandai dalam potongan ayat di bawah ini adalah?</string>
+    <string name="materi">Materi</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="pencarian">Pencarian</string>
+    <string name="search_tajwid">Cari materi tajwid</string>
+    <string name="detail_materi">Detail Materi</string>
+    <string name="long_lorem">Maecenas a dui at nulla rhoncus rutrum mattis ac massa. Morbi malesuada metus sit amet eros euismod, eu aliquam augue dapibus. In hac habitasse platea dictumst. Cras aliquam at nisl sed blandit. Mauris pharetra erat in massa dictum consequat. Proin viverra sem vulputate, iaculis elit vitae, gravida tortor. Vivamus eu lorem feugiat, elementum massa at, placerat risus. Nam scelerisque sodales tincidunt. Mauris consequat tempus tellus, vulputate fermentum justo tempus quis. Pellentesque imperdiet mattis maximus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas sagittis sollicitudin mauris, ac vehicula turpis facilisis sit amet. In quis vestibulum dolor. Suspendisse sit amet dui tristique felis aliquam efficitur.<br></br>Vivamus sed consectetur erat, ut sagittis felis. Etiam molestie sodales mollis. Nunc porttitor condimentum diam, in molestie sem consectetur non. Duis lobortis vel nisl quis facilisis. Etiam in velit id ipsum congue rutrum. Sed quis pulvinar lorem. Donec eget rhoncus ex.</string>
+    <string name="answer_correct">Bagus! Tingkatkan terus kemampuanmu ya!</string>
+    <string name="answer_wrong">Sayang sekali! Pelajari kembali materinya ya!</string>
+    <string name="keluar">Keluar</string>
+    <string name="ulangi">Ulangi</string>
+    <string name="status_correct">Jawaban Anda Benar!</string>
+    <string name="status_wrong">Jawaban Anda Salah!</string>
+    <string name="speech">Ucapkan...</string>
+    <string name="not_supported">This device is not supported</string>
 </resources>

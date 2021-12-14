@@ -4,38 +4,89 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/green_dark"
+    android:background="@drawable/background_main"
     tools:context=".MainActivity">
 
-    <androidx.cardview.widget.CardView
-        android:id="@+id/cardView"
-        android:layout_width="128dp"
-        android:layout_height="128dp"
-        app:cardBackgroundColor="@color/white"
-        app:cardCornerRadius="12dp"
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="78dp"
+        android:contentDescription="@string/icon"
+        android:src="@drawable/ic_app_transparent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="64dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
 
-        <ImageView
+        <FrameLayout
+            android:id="@+id/btn_material"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_margin="2dp"
-            android:src="@drawable/ic_app" />
+            android:layout_height="48dp"
+            android:layout_marginHorizontal="48dp"
+            android:background="@drawable/button_transparent_white_stroke"
+            tools:ignore="UselessParent">
 
-    </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat_semibold"
+                android:text="@string/materi_tajwid"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
 
-    <com.airbnb.lottie.LottieAnimationView
-        android:id="@+id/dialog_animation"
-        android:layout_width="match_parent"
-        android:layout_height="120dp"
-        android:layout_marginHorizontal="24dp"
-        android:layout_marginTop="24dp"
-        app:layout_constraintTop_toBottomOf="@+id/cardView"
-        app:lottie_autoPlay="true"
-        app:lottie_loop="true"
-        app:lottie_rawRes="@raw/loading"
-        tools:layout_editor_absoluteX="24dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/btn_quiz"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginHorizontal="48dp"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/button_transparent_white_stroke"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat_semibold"
+                android:text="@string/latihan"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/btn_search"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginHorizontal="48dp"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/button_transparent_white_stroke"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat_semibold"
+                android:text="@string/pencarian"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+        </FrameLayout>
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

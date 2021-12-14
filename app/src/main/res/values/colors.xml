@@ -9,4 +9,8 @@
     <color name="white">#FFFFFFFF</color>
     <color name="green_dark">#00302D</color>
     <color name="green_light">#014E49</color>
+    <color name="answer_correct">#3C7D1D</color>
+    <color name="answer_wrong">#B8332B</color>
+    <color name="mic_normal">#909090</color>
+    <color name="mic_recording">#C82E2E</color>
 </resources>

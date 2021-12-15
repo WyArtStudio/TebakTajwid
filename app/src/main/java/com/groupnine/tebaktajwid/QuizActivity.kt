@@ -12,11 +12,8 @@ import android.graphics.drawable.ColorDrawable
 import android.media.MediaPlayer
 import android.os.Bundle
 import android.os.Handler
-import android.speech.RecognitionListener
 import android.speech.RecognizerIntent
-import android.speech.SpeechRecognizer
 import android.view.Gravity
-import android.view.MotionEvent
 import android.view.View
 import android.widget.FrameLayout
 import android.widget.SeekBar
@@ -99,17 +96,17 @@ class QuizActivity : AppCompatActivity() {
 
             if (viewModel.recordingStatus.value == 0) {
                 binding.btnMicrophone.imageTintList =
-                    ColorStateList.valueOf(resources.getColor(R.color.mic_recording))
+                    ColorStateList.valueOf(ContextCompat.getColor(this, R.color.mic_recording))
                 binding.listeningAnimation.visibility = View.VISIBLE
                 viewModel.setRecordingStatus(1)
                 promptSpeechInput()
                 binding.btnMicrophone.imageTintList =
-                    ColorStateList.valueOf(resources.getColor(R.color.mic_normal))
+                    ColorStateList.valueOf(ContextCompat.getColor(this, R.color.mic_normal))
                 binding.listeningAnimation.visibility = View.GONE
                 viewModel.setRecordingStatus(0)
             } else {
                 binding.btnMicrophone.imageTintList =
-                    ColorStateList.valueOf(resources.getColor(R.color.mic_normal))
+                    ColorStateList.valueOf(ContextCompat.getColor(this, R.color.mic_normal))
                 binding.listeningAnimation.visibility = View.GONE
                 viewModel.setRecordingStatus(0)
             }
@@ -120,11 +117,11 @@ class QuizActivity : AppCompatActivity() {
         dialog.show()
         if (data.equals(ANSWER, ignoreCase = true)) {
             tvAnswerStatus.text = resources.getString(R.string.status_correct)
-            tvAnswerStatus.setTextColor(resources.getColor(R.color.answer_correct))
+            tvAnswerStatus.setTextColor(ContextCompat.getColor(this, R.color.answer_correct))
             tvAnswerDescription.text = resources.getString(R.string.answer_correct)
         } else {
             tvAnswerStatus.text = resources.getString(R.string.status_wrong)
-            tvAnswerStatus.setTextColor(resources.getColor(R.color.answer_wrong))
+            tvAnswerStatus.setTextColor(ContextCompat.getColor(this, R.color.answer_wrong))
             tvAnswerDescription.text = resources.getString(R.string.answer_wrong)
         }
     }
@@ -197,7 +194,7 @@ class QuizActivity : AppCompatActivity() {
                 Toast.LENGTH_SHORT
             ).show()
             binding.btnMicrophone.imageTintList =
-                ColorStateList.valueOf(resources.getColor(R.color.mic_normal))
+                ColorStateList.valueOf(ContextCompat.getColor(this, R.color.mic_normal))
             binding.listeningAnimation.visibility = View.GONE
             viewModel.setRecordingStatus(0)
         }
@@ -214,7 +211,7 @@ class QuizActivity : AppCompatActivity() {
                     val result: ArrayList<String>? = data.getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS)
                     checkAnswer(result!![0])
                     binding.btnMicrophone.imageTintList =
-                        ColorStateList.valueOf(resources.getColor(R.color.mic_normal))
+                        ColorStateList.valueOf(ContextCompat.getColor(this, R.color.mic_normal))
                     binding.listeningAnimation.visibility = View.GONE
                     viewModel.setRecordingStatus(0)
                 }

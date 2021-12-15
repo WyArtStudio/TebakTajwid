@@ -6,6 +6,7 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
+    <color name="dark">#2B2B2B</color>
     <color name="white">#FFFFFFFF</color>
     <color name="green_dark">#00302D</color>
     <color name="green_light">#014E49</color>
@@ -13,4 +14,9 @@
     <color name="answer_wrong">#B8332B</color>
     <color name="mic_normal">#909090</color>
     <color name="mic_recording">#C82E2E</color>
+    <color name="beginner">#00BCD4</color>
+    <color name="easy">#4CAF50</color>
+    <color name="normal">#CDDC39</color>
+    <color name="medium">#FF9800</color>
+    <color name="hard">#E91E63</color>
 </resources>

@@ -8,9 +8,9 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="116dp"
-        android:layout_marginHorizontal="32dp"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="24dp"
+        android:layout_marginHorizontal="32dp"
         app:cardBackgroundColor="@color/green_dark"
         app:cardCornerRadius="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -38,7 +38,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_margin="4dp"
-                    tools:srcCompat="@drawable/ic_app" />
+                    tools:srcCompat="@drawable/ic_level1" />
 
             </com.google.android.material.card.MaterialCardView>
 
@@ -53,22 +53,35 @@
                     android:id="@+id/tv_title"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/montserrat_medium"
-                    android:text="@string/materi"
+                    android:fontFamily="@font/montserrat_semibold"
+                    android:text="Level 1"
                     android:textColor="@color/white"
                     android:textSize="18sp" />
 
-                <TextView
-                    android:id="@+id/tv_description"
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="12dp"
-                    android:ellipsize="end"
-                    android:fontFamily="@font/montserrat"
-                    android:maxLines="2"
-                    android:text="@string/lorem"
-                    android:textColor="@color/white"
-                    android:textSize="12sp" />
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat"
+                        android:text="Difficulty : "
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tv_level"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_semibold"
+                        android:text="Beginner"
+                        android:textColor="@color/beginner"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
 
             </LinearLayout>
 

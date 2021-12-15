@@ -1,10 +1,11 @@
-package com.groupnine.tebaktajwid
+package com.groupnine.tebaktajwid.activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Window
 import android.view.WindowManager
+import com.groupnine.tebaktajwid.R
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch

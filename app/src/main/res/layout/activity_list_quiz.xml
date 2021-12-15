@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MaterialActivity">
+    tools:context=".activity.ListQuizActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -25,7 +25,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="20sp"
-            android:text="@string/materi_tajwid"
+            android:text="@string/latihan"
             android:textColor="@color/white"
             android:layout_marginStart="24dp"
             android:layout_gravity="center"
@@ -34,9 +34,12 @@
     </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rv_material"
+        android:id="@+id/rv_quiz"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:listitem="@layout/item_card_material"/>
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:orientation="vertical"
+        android:overScrollMode="never"
+        tools:listitem="@layout/item_card_quiz"/>
 
 </LinearLayout>

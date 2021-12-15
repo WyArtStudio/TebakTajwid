@@ -18,4 +18,20 @@
     <string name="status_wrong">Jawaban Anda Salah!</string>
     <string name="speech">Ucapkan...</string>
     <string name="not_supported">This device is not supported</string>
+
+    <string-array name="question">
+        <item>1. Hukum bacaan nun sukun bertemu dengan ha adalah…</item>
+        <item>2. Hukum bacaan ra tanwin bertemu dengan dzal adalah…</item>
+        <item>3. Hukum bacaan mim sukun bertemu dengan ba adalah…</item>
+        <item>4. Kedua hukum bacaan dibawah adalah…</item>
+        <item>5. Hukum bacaan mad di bawah adalah…</item>
+    </string-array>
+
+    <string-array name="answer_correct">
+        <item>idhar</item>
+        <item>ikhfa</item>
+        <item>Ikhfa Syafawi</item>
+        <item>Idgham Bighunnah</item>
+        <item>mad lazim mutsaqol kilmi</item>
+    </string-array>
 </resources>

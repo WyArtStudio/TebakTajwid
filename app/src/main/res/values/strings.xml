@@ -9,130 +9,29 @@
     <string name="pencarian">Pencarian</string>
     <string name="search_tajwid">Cari materi tajwid</string>
     <string name="detail_materi">Detail Materi</string>
-    <string name="long_lorem">Maecenas a dui at nulla rhoncus rutrum mattis ac massa. Morbi malesuada metus sit amet eros euismod, eu aliquam augue dapibus. In hac habitasse platea dictumst. Cras aliquam at nisl sed blandit. Mauris pharetra erat in massa dictum consequat. Proin viverra sem vulputate, iaculis elit vitae, gravida tortor. Vivamus eu lorem feugiat, elementum massa at, placerat risus. Nam scelerisque sodales tincidunt. Mauris consequat tempus tellus, vulputate fermentum justo tempus quis. Pellentesque imperdiet mattis maximus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas sagittis sollicitudin mauris, ac vehicula turpis facilisis sit amet. In quis vestibulum dolor. Suspendisse sit amet dui tristique felis aliquam efficitur. Vivamus sed consectetur erat, ut sagittis felis. Etiam molestie sodales mollis. Nunc porttitor condimentum diam, in molestie sem consectetur non. Duis lobortis vel nisl quis facilisis. Etiam in velit id ipsum congue rutrum. Sed quis pulvinar lorem. Donec eget rhoncus ex.</string>
+    <string name="long_lorem">Maecenas a dui at nulla rhoncus rutrum mattis ac massa. Morbi malesuada metus sit amet eros euismod, eu aliquam augue dapibus. In hac habitasse platea dictumst. Cras aliquam at nisl sed blandit. Mauris pharetra erat in massa dictum consequat. Proin viverra sem vulputate, iaculis elit vitae, gravida tortor. Vivamus eu lorem feugiat, elementum massa at, placerat risus. Nam scelerisque sodales tincidunt. Mauris consequat tempus tellus, vulputate fermentum justo tempus quis. Pellentesque imperdiet mattis maximus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas sagittis sollicitudin mauris, ac vehicula turpis facilisis sit amet. In quis vestibulum dolor. Suspendisse sit amet dui tristique felis aliquam efficitur.<br></br>Vivamus sed consectetur erat, ut sagittis felis. Etiam molestie sodales mollis. Nunc porttitor condimentum diam, in molestie sem consectetur non. Duis lobortis vel nisl quis facilisis. Etiam in velit id ipsum congue rutrum. Sed quis pulvinar lorem. Donec eget rhoncus ex.</string>
     <string name="answer_correct">Bagus! Tingkatkan terus kemampuanmu ya!</string>
     <string name="answer_wrong">Sayang sekali! Pelajari kembali materinya ya!</string>
     <string name="keluar">Keluar</string>
     <string name="ulangi">Ulangi</string>
     <string name="status_correct">Jawaban Anda Benar!</string>
     <string name="status_wrong">Jawaban Anda Salah!</string>
-    <string name="speech">Ucapkan…</string>
+    <string name="speech">Ucapkan...</string>
     <string name="not_supported">This device is not supported</string>
-    <string name="selanjutnya">Selanjutnya</string>
-    <string name="about_us">Tentang Kami</string>
-    <string name="tentang_kami">Tentang Kami</string>
-    <string name="about_app">Tebak Tajwid merupakan aplikasi Android yang memberikan pembelajaran mengenai tajwid kepada pengguna. Aplikasi ini dilengkapi dengan dua fitur utama yakni Materi dan Latihan. Tebak Tajwid mengimplementasikan Speech Recognition dalam menerima inputan suara dari pengguna yang kemudian diolah menjadi teks dan mengecek jawaban dari latihan tersebut.</string>
-    <string name="our_team">Our Team</string>
-    <string name="member1">Wahyu Hendiarto Wibowo</string>
-    <string name="description_member1"><![CDATA[System Analyst & Designer]]></string>
-    <string name="member2">Teguh Muhammad Ridwan</string>
-    <string name="description_member2">Android Developer</string>
-    <string name="member3">Muhammad Arif Suwari</string>
-    <string name="description_member3"><![CDATA[Content Creator & QA]]></string>
 
-    <string-array name="quiz_title">
-        <item>Level 1</item>
-        <item>Level 2</item>
-        <item>Level 3</item>
-        <item>Level 4</item>
-        <item>Level 5</item>
+    <string-array name="question">
+        <item>1. Hukum bacaan nun sukun bertemu dengan ha adalah…</item>
+        <item>2. Hukum bacaan ra tanwin bertemu dengan dzal adalah…</item>
+        <item>3. Hukum bacaan mim sukun bertemu dengan ba adalah…</item>
+        <item>4. Kedua hukum bacaan dibawah adalah…</item>
+        <item>5. Hukum bacaan mad di bawah adalah…</item>
     </string-array>
 
-    <string-array name="quiz_level">
-        <item>Beginner</item>
-        <item>Easy</item>
-        <item>Normal</item>
-        <item>Medium</item>
-        <item>Hard</item>
-    </string-array>
-
-    <integer-array name="quiz_icon">
-        <item>@drawable/ic_level1</item>
-        <item>@drawable/ic_level2</item>
-        <item>@drawable/ic_level3</item>
-        <item>@drawable/ic_level4</item>
-        <item>@drawable/ic_level5</item>
-    </integer-array>
-
-    <integer-array name="quiz_question">
-        <item>@drawable/soal_1</item>
-        <item>@drawable/soal_2</item>
-        <item>@drawable/soal_3</item>
-        <item>@drawable/soal_4</item>
-        <item>@drawable/soal_5</item>
-    </integer-array>
-
-    <string-array name="quiz_answer">
-        <item>Idzhar</item>
-        <item>Ikhfa</item>
+    <string-array name="answer_correct">
+        <item>idhar</item>
+        <item>ikhfa</item>
         <item>Ikhfa Syafawi</item>
         <item>Idgham Bighunnah</item>
-        <item>Mad Lazim Kilmi</item>
-    </string-array>
-
-    <string-array name="material_title">
-        <item>Pengenalan Tajwid</item>
-        <item>Idzhar Halqi</item>
-        <item>Idgham Bighunnah</item>
-        <item>Idgham Bilaghunnah</item>
-        <item>Iqlab</item>
-        <item>Ikhfa Haqiqi</item>
-        <item>Idzhar Syafawi</item>
-        <item>Alif Lam Qamariah</item>
-        <item>Alif Lam Syamsiah</item>
-        <item>Idgham</item>
-        <item>Ra</item>
-        <item>Qalqalah</item>
-        <item>Waqaf</item>
-    </string-array>
-
-    <!--TODO: Changes the Icon -->
-    <integer-array name="material_icon">
-        <item>@drawable/ic_app</item>
-        <item>@drawable/ic_app</item>
-        <item>@drawable/ic_app</item>
-        <item>@drawable/ic_app</item>
-        <item>@drawable/ic_app</item>
-        <item>@drawable/ic_app</item>
-        <item>@drawable/ic_app</item>
-        <item>@drawable/ic_app</item>
-        <item>@drawable/ic_app</item>
-        <item>@drawable/ic_app</item>
-        <item>@drawable/ic_app</item>
-        <item>@drawable/ic_app</item>
-        <item>@drawable/ic_app</item>
-    </integer-array>
-
-    <string-array name="material_description">
-        <item>Mengenal pengertian tajwid dan hukum mempelajarinya.</item>
-        <item>Mengenal Idzhar Halqi, hurufnya, serta pengucapannya.</item>
-        <item>Mengenal Idgham Bighunnah, hurufnya, serta pengucapannya.</item>
-        <item>Mengenal Idgham Bilaghunnah, hurufnya, serta pengucapannya.</item>
-        <item>Mengenal Iqlab, hurufnya, serta pengucapannya.</item>
-        <item>Mengenal Ikhfa Haqiqi, hurufnya, serta pengucapannya.</item>
-        <item>Mengenal Idzhar Syafawi, hurufnya, serta pengucapannya.</item>
-        <item>Mengenal Alif Lam Qamariah, hurufnya, serta pengucapannya.</item>
-        <item>Mengenal Alif Lam Syamsiah, hurufnya, serta pengucapannya.</item>
-        <item>Mengenal Tajwid Idgham, hurufnya, serta pengucapannya.</item>
-        <item>Mengenal Tajwid Ra, hurufnya, serta pengucapannya.</item>
-        <item>Mengenal Qalqalah, hurufnya, serta pengucapannya.</item>
-        <item>Mengenal Waqaf, hurufnya, serta pengucapannya.</item>
-    </string-array>
-
-    <!--TODO: Changes the Material Content, can use drawable too if possible (integer-array) -->
-    <string-array name="material_content">
-        <item>Material 1</item>
-        <item>Material 2</item>
-        <item>Material 3</item>
-        <item>Material 4</item>
-        <item>Material 5</item>
-        <item>Material 6</item>
-        <item>Material 7</item>
-        <item>Material 8</item>
-        <item>Material 9</item>
-        <item>Material 10</item>
-        <item>Material 11</item>
-        <item>Material 12</item>
-        <item>Material 13</item>
+        <item>mad lazim mutsaqol kilmi</item>
     </string-array>
 </resources>

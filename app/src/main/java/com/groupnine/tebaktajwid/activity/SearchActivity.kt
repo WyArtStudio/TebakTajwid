@@ -32,8 +32,6 @@ class SearchActivity : AppCompatActivity() {
             override fun afterTextChanged(name: Editable?) {
                 if (name?.length!! > 0) {
                     viewModel.getListMaterialDataByName(this@SearchActivity, name.toString())
-                } else {
-                    viewModel.listMaterial.value?.clear()
                 }
             }
         })

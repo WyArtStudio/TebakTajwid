@@ -1,8 +1,11 @@
 package com.groupnine.tebaktajwid.activity
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import com.bumptech.glide.Glide
+import com.github.barteksc.pdfviewer.util.FileUtils
 import com.groupnine.tebaktajwid.databinding.ActivityDetailMaterialBinding
 import com.groupnine.tebaktajwid.model.Material
 
@@ -19,6 +22,7 @@ class DetailMaterialActivity : AppCompatActivity() {
         setContentView(binding.root)
         val material = intent.getParcelableExtra<Material>(EXTRA_MATERIAL)
         bind(material)
+        showPdfFromAssets(material?.content!!)
 
         binding.btnBack.setOnClickListener {
             onBackPressed()
@@ -28,8 +32,20 @@ class DetailMaterialActivity : AppCompatActivity() {
     private fun bind(material: Material?) {
         with(binding) {
             Glide.with(this@DetailMaterialActivity).load(material?.icon).into(imgIcon)
-            tvContent.text = material?.content
             tvTitle.text = material?.title
         }
+    }
+
+    private fun showPdfFromAssets(pdfName: String) {
+        binding.pdfView.fromAsset(pdfName)
+            .password(null) // if password protected, then write password
+            .defaultPage(0) // set the default page to open
+            .onPageError { page, _ ->
+                Toast.makeText(
+                    this@DetailMaterialActivity,
+                    "Error at page: $page", Toast.LENGTH_LONG
+                ).show()
+            }
+            .load()
     }
 }

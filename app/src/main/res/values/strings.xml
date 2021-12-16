@@ -63,11 +63,11 @@
     </integer-array>
 
     <string-array name="quiz_answer">
-        <item>Idzhar</item>
+        <item>Izhar</item>
         <item>Ikhfa</item>
         <item>Ikhfa Syafawi</item>
         <item>Idgham Bighunnah</item>
-        <item>Mad Lazim Kilmi</item>
+        <item>Mad Lazim Mutsaqol Kilmi</item>
     </string-array>
 
     <string-array name="material_title">
@@ -77,6 +77,8 @@
         <item>Idgham Bilaghunnah</item>
         <item>Iqlab</item>
         <item>Ikhfa Haqiqi</item>
+        <item>Ikhfa Syafawi</item>
+        <item>Idgham Mimi</item>
         <item>Idzhar Syafawi</item>
         <item>Alif Lam Qamariah</item>
         <item>Alif Lam Syamsiah</item>
@@ -86,21 +88,22 @@
         <item>Waqaf</item>
     </string-array>
 
-    <!--TODO: Changes the Icon -->
     <integer-array name="material_icon">
-        <item>@drawable/ic_app</item>
-        <item>@drawable/ic_app</item>
-        <item>@drawable/ic_app</item>
-        <item>@drawable/ic_app</item>
-        <item>@drawable/ic_app</item>
-        <item>@drawable/ic_app</item>
-        <item>@drawable/ic_app</item>
-        <item>@drawable/ic_app</item>
-        <item>@drawable/ic_app</item>
-        <item>@drawable/ic_app</item>
-        <item>@drawable/ic_app</item>
-        <item>@drawable/ic_app</item>
-        <item>@drawable/ic_app</item>
+        <item>@drawable/tajwid</item>
+        <item>@drawable/idzhar_halqi</item>
+        <item>@drawable/idgham_bighunnah</item>
+        <item>@drawable/idgham_bilaghunnah</item>
+        <item>@drawable/iqlab</item>
+        <item>@drawable/ikhfa_haqiqi</item>
+        <item>@drawable/ikhfa_syafawi</item>
+        <item>@drawable/idgham_mimi</item>
+        <item>@drawable/idzhar_syafawi</item>
+        <item>@drawable/alqo</item>
+        <item>@drawable/assyam</item>
+        <item>@drawable/idgham</item>
+        <item>@drawable/ra</item>
+        <item>@drawable/qalqalah</item>
+        <item>@drawable/waqaf</item>
     </integer-array>
 
     <string-array name="material_description">
@@ -110,6 +113,8 @@
         <item>Mengenal Idgham Bilaghunnah, hurufnya, serta pengucapannya.</item>
         <item>Mengenal Iqlab, hurufnya, serta pengucapannya.</item>
         <item>Mengenal Ikhfa Haqiqi, hurufnya, serta pengucapannya.</item>
+        <item>Mengenal Ikhfa Syafawi, hurufnya, serta pengucapannya.</item>
+        <item>Mengenal Idgham Mimi, hurufnya, serta pengucapannya.</item>
         <item>Mengenal Idzhar Syafawi, hurufnya, serta pengucapannya.</item>
         <item>Mengenal Alif Lam Qamariah, hurufnya, serta pengucapannya.</item>
         <item>Mengenal Alif Lam Syamsiah, hurufnya, serta pengucapannya.</item>
@@ -119,21 +124,22 @@
         <item>Mengenal Waqaf, hurufnya, serta pengucapannya.</item>
     </string-array>
 
-    <!--TODO: Changes the Material Content, can use drawable too if possible (integer-array) -->
     <string-array name="material_content">
-        <item>Material 1</item>
-        <item>Material 2</item>
-        <item>Material 3</item>
-        <item>Material 4</item>
-        <item>Material 5</item>
-        <item>Material 6</item>
-        <item>Material 7</item>
-        <item>Material 8</item>
-        <item>Material 9</item>
-        <item>Material 10</item>
-        <item>Material 11</item>
-        <item>Material 12</item>
-        <item>Material 13</item>
+        <item>1_Pendahuluan.pdf</item>
+        <item>2_IdzharHalqi.pdf</item>
+        <item>3_IdghamBighunnah.pdf</item>
+        <item>4_IdghamBilaghunnah.pdf</item>
+        <item>5_Iqlab.pdf</item>
+        <item>6_IkhfaHaqiqi.pdf</item>
+        <item>7_IkhfaSyafawi.pdf</item>
+        <item>8_IghamMimi.pdf</item>
+        <item>9_IdzharSyafawi.pdf</item>
+        <item>10_alQomariah.pdf</item>
+        <item>11_alSyamsiah.pdf</item>
+        <item>12_Idgham.pdf</item>
+        <item>13_ra.pdf</item>
+        <item>14_Qalqalah.pdf</item>
+        <item>15_Waqaf.pdf</item>
     </string-array>
 
 </resources>

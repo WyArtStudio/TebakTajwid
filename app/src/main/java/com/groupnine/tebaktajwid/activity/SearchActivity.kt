@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
+import android.view.View
 import androidx.lifecycle.ViewModelProvider
 import com.groupnine.tebaktajwid.R
 import com.groupnine.tebaktajwid.adapter.ListMaterialAdapter
@@ -32,6 +33,9 @@ class SearchActivity : AppCompatActivity() {
             override fun afterTextChanged(name: Editable?) {
                 if (name?.length!! > 0) {
                     viewModel.getListMaterialDataByName(this@SearchActivity, name.toString())
+                    binding.rvMaterial.visibility = View.VISIBLE
+                } else {
+                    binding.rvMaterial.visibility = View.GONE
                 }
             }
         })
